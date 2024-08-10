@@ -1,0 +1,42 @@
+body {
+	font-family: Arial, Helvetica, sans-sarif;
+	text-align: center;
+}
+
+hr {
+	width: 500px;
+	height: 3px;
+	background-color: black;
+}
+
+#field {
+	width: 502px;
+	height: 502px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: lightskyblue;
+}
+
+.tile {
+	width: 44px;
+	height: 44px;
+	background-color: darkblue;
+	
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	border: 1px dotted grey;
+}
+
+.hit {
+	color: red;
+}
+
+.miss {
+	color: white;
+}
+
+.frame {
+	background-color: grey;
+}
